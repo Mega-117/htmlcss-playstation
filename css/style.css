@@ -30,14 +30,6 @@ p{
 
 /* utiliti */
 
-.my-pt-50{
-    padding: 50px;
-}
-
-.my-pt-200{
-    padding-top: 200px;
-}
-
 
 /************************************/
 
@@ -67,6 +59,13 @@ p{
     margin-bottom: 24px;
 }
 
+.my-section-sm{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .my-section{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -81,14 +80,21 @@ p{
     padding-right: 15px;
 }
 
-.my-section-hero{
+.my-section-main-hero{
     padding-top:200px;
-    background-image: url("../img/jumbo-bg.png");
+    
+}
+
+
+.bg-hero{
     background-position: center;
     background-position: top;
     background-repeat: no-repeat;
 }
 
+.bg-hero-img{
+    background-image: url("../img/jumbo-bg.png");
+}
 
 .card-box{
     padding: 3px;
@@ -115,6 +121,14 @@ p{
     border-bottom: 3px solid #0072ce;
 }
 
+.bg-hero-img-2{
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+}
+
+.bg-dark-grey{
+    background-color: #1f1f1f;
+}
 /* overwrite bootstrap */
 
 .btn-outline-light:hover {
