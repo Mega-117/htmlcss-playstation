@@ -56,7 +56,7 @@ p{
     min-height: 50px;
 }
 
-.section-hero-img{
+.section-title-img{
     margin-bottom: 16px;
 }
 
@@ -91,16 +91,28 @@ p{
 
 
 .card-box{
-    padding: 1px;
-    border-radius: 10px;    
+    padding: 3px;
+    border-radius: 20px;
+    border: 2px solid transparent;
 }
 
 .card-box-active{
-    border: 2px solid;    
+    border: 2px solid #7fb8e6;
+  
 }
 
 .card-box>img{
-    border-radius: 10px;    
+    border-radius: 20px;    
+}
+
+.card-box-hardware{
+    padding: 10px 20px;
+    text-align: center;
+
+}
+
+.card-box-hardware-active{
+    border-bottom: 3px solid #0072ce;
 }
 
 /* overwrite bootstrap */
