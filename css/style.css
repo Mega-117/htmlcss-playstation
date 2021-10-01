@@ -15,8 +15,17 @@ p{
     font-size: 1.3rem;
 }
 
-.text-smal{
-    font-size: 2.5rem;
+.text-small{
+    font-size: 0.9rem;
+}
+
+.text-blue{
+    color: #2D64E6;
+    font-weight: bold;
+}
+
+.text-grey{
+    color: #727272;
 }
 
 /* utiliti */
@@ -47,10 +56,51 @@ p{
     min-height: 50px;
 }
 
-.bg-main-hero{
+.section-hero-img{
+    margin-bottom: 16px;
+}
+
+.section-title{
+    margin-bottom: 24px;
+}
+.section-text{
+    margin-bottom: 24px;
+}
+
+.my-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.my-section-md{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.my-section-hero{
+    padding-top:200px;
     background-image: url("../img/jumbo-bg.png");
     background-position: center;
     background-position: top;
+    background-repeat: no-repeat;
+}
+
+
+.card-box{
+    padding: 1px;
+    border-radius: 10px;    
+}
+
+.card-box-active{
+    border: 2px solid;    
+}
+
+.card-box>img{
+    border-radius: 10px;    
 }
 
 /* overwrite bootstrap */
