@@ -59,6 +59,10 @@ p{
     margin-bottom: 24px;
 }
 
+.section-text-2{
+    margin-bottom: 95px;
+}
+
 .my-section-sm{
     padding-top: 35px;
     padding-bottom: 35px;
@@ -74,8 +78,8 @@ p{
 }
 
 .my-section-md{
-    padding-top: 75px;
-    padding-bottom: 75px;
+    padding-top: 70px;
+    padding-bottom: 70px;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -129,6 +133,11 @@ p{
 .bg-dark-grey{
     background-color: #1f1f1f;
 }
+
+.bg-grey{
+    background-color: #bebcbb;
+}
+
 /* overwrite bootstrap */
 
 .btn-outline-light:hover {
