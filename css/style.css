@@ -30,6 +30,11 @@ p{
 
 /* utiliti */
 
+.my-pb-90{
+    padding-bottom: 90px;
+}
+
+
 
 /************************************/
 
@@ -55,6 +60,12 @@ p{
 .section-title{
     margin-bottom: 24px;
 }
+
+.section-title-4{
+    margin-bottom: 65px;
+}
+
+
 .section-text{
     margin-bottom: 24px;
 }
@@ -62,6 +73,11 @@ p{
 .section-text-2{
     margin-bottom: 95px;
 }
+
+.section-text-3{
+    margin-bottom: 70px;
+}
+
 
 .my-section-sm{
     padding-top: 35px;
@@ -136,6 +152,10 @@ p{
 
 .bg-grey{
     background-color: #bebcbb;
+}
+
+.bg-blue{
+    background-color: #161c3b;
 }
 
 /* overwrite bootstrap */
