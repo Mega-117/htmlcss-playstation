@@ -100,6 +100,13 @@ p{
     padding-right: 15px;
 }
 
+.my-section-xl{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .my-section-main-hero{
     padding-top:200px;
     
@@ -158,6 +165,19 @@ p{
     background-color: #161c3b;
 }
 
+.bg-footer{
+    background-color: #00439c;
+}
+
+.img-footer{
+    width: 95px;
+    margin-bottom: 40px;
+}
+
+.img-footer-language{
+    width: 20px;
+    margin-right: 12px;
+}
 /* overwrite bootstrap */
 
 .btn-outline-light:hover {
