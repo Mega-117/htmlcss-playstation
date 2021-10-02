@@ -28,11 +28,6 @@ p{
     color: #727272;
 }
 
-/* utiliti */
-
-.my-pb-90{
-    padding-bottom: 90px;
-}
 
 
 
@@ -101,7 +96,7 @@ p{
 }
 
 .my-section-xl{
-    padding-top: 100px;
+    padding-top: 70px;
     padding-bottom: 100px;
     padding-left: 15px;
     padding-right: 15px;
@@ -184,3 +179,16 @@ p{
     border-color: #919aa3;
 }
 
+/* utiliti */
+
+.my-pt-70{
+    padding-top: 70px;
+}
+
+.my-w-60{
+    width: 50%;
+}
+
+p.my-fs-md{
+    font-size: 1.1rem;
+}
