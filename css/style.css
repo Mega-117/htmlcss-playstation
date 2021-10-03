@@ -37,6 +37,7 @@ p{
     background-color: #000000;
     padding: 12px 10px;
     text-align: right;
+    min-height: 24px;
 }
 
 .my-nav-logo-small{
@@ -44,7 +45,7 @@ p{
 }
 
 .nav-bottom{
-    background-color: green;
+    background-color: rgb(255, 255, 255);
     min-height: 50px;
 }
 
@@ -115,6 +116,7 @@ p{
 }
 
 .bg-hero-img{
+    margin-top: 124px;
     background-image: url("../img/jumbo-bg.png");
 }
 
@@ -179,6 +181,33 @@ p{
     border-color: #919aa3;
 }
 
+.btn-danger {
+    color: #fff;
+    background-color: #cd3d0f;
+    border-color: #cd3d0f;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #2d64e6;
+    border-color: #2d64e6;
+}
+
+.btn-light-2 {
+    color: #2d64e6;
+    background-color: #f5f5f5;
+    border-color: #f5f5f5;
+}
+
+.btn-light-2:hover {
+    color: #003b92;
+}
+
+.btn-light {
+    color: #484848;
+    background-color: #d9dadc;
+    border-color: #d9dadc;
+}
 /* utiliti */
 
 .my-pt-70{
