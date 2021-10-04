@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,39 +12,70 @@
 <body>
     <header>
         <nav class="fixed-top">
-            <div class="nav-top">
+            <div class="nav-top d-none d-md-block">
                 <img class="my-nav-logo-small" src="img/sony_logo.svg" alt="">
             </div>
             
             <div class="nav-bottom navbar navbar-expand-lg navbar-light ">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#"><img src="img/play_logo.svg" alt=""></a>
+                  <a class="navbar-brand me-1" href="#"><img src="img/play_logo.svg" alt=""></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      
                       <li class="nav-item dropdown px-1">
-                        <a class="nav-link dropdown-toggle fw-bold" role="button">Giochi</a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
+                        <a class="nav-link dropdown-toggle fw-bold" href="#" role="button">Giochi <img class="nav-arow" src="img/chevron-down-solid.svg" alt=""> <img class="nav-arow" src="img/chevron-down-solid-hover.svg" alt=""></a>
+                        
+                        <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+                          <li class="row justify-content-center">
+                            <div class="col-1">
+                              <a class="text-decoration-none text-black" href="#">
+                                <img src="img/play-menu-ico.png" alt="">
+                                <h4>PS2</h4>
+                              </a>  
+                            </div>
+                            <div class="col-1">
+                              <a class="text-decoration-none text-black" href="#">
+                                <img src="img/play-menu-ico.png" alt="">
+                                <h4>PS2</h4>
+                              </a>  
+                            </div>
+                            <div class="col-1">
+                              <a class="text-decoration-none text-black" href="#">
+                                <img src="img/play-menu-ico.png" alt="">
+                                <h4>PS2</h4>
+                              </a>  
+                            </div>
+                          </li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li>
+                            <ul class="d-flex justify-content-center mb-2 fw-bold">
+                              <li class="pe-5"><a class="text-decoration-none text-black" href="#">link</a></li>
+                              <li class="pe-5"><a class="text-decoration-none text-black" href="#">link</a></li>
+                              <li class="pe-5"><a class="text-decoration-none text-black" href="#">link</a></li>
+                            </ul>
+                          </li>
                         </ul>
                       </li>
                       
                       <li class="nav-item dropdown px-1 fw-bold">
-                        <a class="nav-link dropdown-toggle" role="button">Hardware</a>
+                        <a class="nav-link dropdown-toggle" role="button">Hardware <img class="nav-arow" src="img/chevron-down-solid.svg" alt=""><img class="nav-arow" src="img/chevron-down-solid-hover.svg" alt=""></a>
+                      </li>
+                        
+                      
+                      <li class="nav-item dropdown px-1 fw-bold">
+                        <a class="nav-link dropdown-toggle" role="button">Servizi <img class="nav-arow" src="img/chevron-down-solid.svg" alt=""><img class="nav-arow" src="img/chevron-down-solid-hover.svg" alt=""></a>
                       </li>
                       <li class="nav-item dropdown px-1 fw-bold">
-                        <a class="nav-link dropdown-toggle" role="button">Servizi</a>
+                        <a class="nav-link dropdown-toggle" role="button">Novità <img class="nav-arow" src="img/chevron-down-solid.svg" alt=""><img class="nav-arow" src="img/chevron-down-solid-hover.svg" alt=""></a>
                       </li>
                       <li class="nav-item dropdown px-1 fw-bold">
-                        <a class="nav-link dropdown-toggle" role="button">Novità</a>
+                        <a class="nav-link dropdown-toggle" role="button">Fai acquisti <img class="nav-arow" src="img/chevron-down-solid.svg" alt=""><img class="nav-arow" src="img/chevron-down-solid-hover.svg" alt=""></a>
                       </li>
                       <li class="nav-item dropdown px-1 fw-bold">
-                        <a class="nav-link dropdown-toggle" role="button">Fai acquisti</a>
-                      </li>
-                      <li class="nav-item dropdown px-1 fw-bold">
-                        <a class="nav-link dropdown-toggle" role="button">Supporto</a>
+                        <a class="nav-link dropdown-toggle" role="button">Supporto <img class="nav-arow" src="img/chevron-down-solid.svg" alt=""><img class="nav-arow" src="img/chevron-down-solid-hover.svg" alt=""></a>
                       </li>
                     
                     </ul>
@@ -52,7 +83,7 @@
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             
                             <li class="nav-item dropdown px-1 fw-bold">
-                                <a class="nav-link dropdown-toggle" role="button">My Playstation</a>
+                                <a class="nav-link dropdown-toggle" role="button">My Playstation <img class="nav-arow" src="img/chevron-down-solid.svg" alt=""> <img class="nav-arow" src="img/chevron-down-solid-hover.svg" alt=""></a>
                             </li>
                           
                         </ul>
@@ -86,35 +117,35 @@
         </section>
 
         <!--inizio card giochi -->
-        <section class="my-section-sm">
+        <section class="my-section">
           <div class="container">
             <div class="row row-cols-lg-6 row-cols-sm-3 row-cols-2">
-              <div class="col">
+              <div class="col up-transition">
                 <div class="card-box card-box-active">
                   <img class="w-100" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
                 </div>
               </div>
-              <div class="col">
+              <div class="col up-transition">
                 <div class="card-box">
                   <img class="w-100" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
                 </div>
               </div>
-              <div class="col">
+              <div class="col up-transition">
                 <div class="card-box">
                   <img class="w-100" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
                 </div>
               </div>
-              <div class="col">
+              <div class="col up-transition">
                 <div class="card-box">
                   <img class="w-100" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
                 </div>
               </div>
-              <div class="col">
+              <div class="col up-transition">
                 <div class="card-box">
                   <img class="w-100" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
                 </div>
               </div>
-              <div class="col">
+              <div class="col up-transition">
                 <div class="card-box">
                   <img class="w-100" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
                 </div>
@@ -164,31 +195,31 @@
               <div class="col card-box-hardware-active">
                 <div class="fw-bold">
                   <img class="my-w-60 section-title-img" src="img/playstation-5-thumb.png" alt="">
-                  <p class="text-small">Console PS5</span>
+                  <p class="text-small d-none d-md-block">Console PS5</p>
                 </div>
               </div>
-              <div class="col">
+              <div class="col opacity-effect">
                 <div class="fw-bold">
                   <img class="my-w-60 section-title-img" src="img/joypad-thumb.png" alt="">
-                  <p class="text-small text-grey">Controller wireless <br> DualSense</p>
+                  <p class="text-small text-grey  d-none d-md-block">Controller wireless <br> DualSense</p>
                 </div>
               </div>
-              <div class="col">
+              <div class="col opacity-effect">
                 <div class="fw-bold">
                   <img class="my-w-60 section-title-img" src="img/headset-thumb.png" alt="">
-                  <p class="text-small text-grey">Cuffie wireless con microfono PULSE 3</p>
+                  <p class="text-small text-grey  d-none d-md-block">Cuffie wireless con microfono PULSE 3</p>
                 </div>
               </div>
-              <div class="col">
+              <div class="col opacity-effect">
                 <div class="fw-bold">
                   <img class="my-w-60 section-title-img" src="img/remote-thumb.png" alt="">
-                  <p class="text-small text-grey">Telecomando Media</p>
+                  <p class="text-small text-grey  d-none d-md-block">Telecomando Media</p>
                 </div>
               </div>
-              <div class="col">
+              <div class="col opacity-effect">
                 <div class="fw-bold">
                   <img class="my-w-60 section-title-img" src="img/camera-thumb.jpg" alt="">
-                  <p class="text-small text-grey">Telecamera HD</p>
+                  <p class="text-small text-grey  d-none d-md-block">Telecamera HD</p>
                 </div>
               </div>
             </div>
