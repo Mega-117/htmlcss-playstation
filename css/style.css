@@ -15,6 +15,7 @@ h4, p{
     font-size: 1.3rem;
 }
 
+.far.fa-copyright,
 .text-small{
     font-size: 0.9rem;
 }
@@ -28,7 +29,15 @@ h4, p{
     color: #727272;
 }
 
+.far.fa-registered{
+    font-size: 16px;
+    transform: translateY(-15px);
 
+}
+.fas.fa-trademark{
+    font-size: 8px;
+    transform: translateY(-4px);
+}
 
 
 /************************************/
